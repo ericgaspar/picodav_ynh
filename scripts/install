@@ -39,7 +39,7 @@ ynh_add_nginx_config
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../config/.picodav.ini" --destination="$install_dir/.picodav.ini"
+ynh_add_config --template="../conf/.picodav.ini" --destination="$install_dir/.picodav.ini"
 
 chmod 400 "$install_dir/.picodav.ini"
 chown $app:$app "$install_dir/.picodav.ini"

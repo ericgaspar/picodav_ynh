@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/kd2org/picodav/archive/refs/tags/0.1.7.tar.gz
+SOURCE_SUM=3635883345ec7e6c982ca6da11bb2c5a3166edc54071cbab891060211b447a81
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

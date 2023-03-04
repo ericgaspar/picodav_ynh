@@ -24,7 +24,7 @@ chown -R $app:www-data "$install_dir"
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding system configurations related to $app ..." --weight=1
+ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
 
 # Create a dedicated PHP-FPM config using the conf/php-fpm.conf or conf/extra_php-fpm.conf
 ynh_add_fpm_config
